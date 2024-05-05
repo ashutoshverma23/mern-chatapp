@@ -50,7 +50,7 @@ export const signup = async (req, res) => {
 
 
     } catch (error) {
-        console.log("Error on signup", error.message);
+        console.log("Error on signup controller", error.message);
         res.status(500).json({ error: "Internal Server Error" });
     }
 }
